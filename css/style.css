@@ -102,6 +102,7 @@ a {
   font-size: 2rem;
   color: #b19c9c;
   padding: 0px 10px;
+  border-radius: 50%;
 }
 
 #navbar .nav-items a > i:hover{

@@ -25,9 +25,7 @@ a {
   text-decoration: none;
 }
 
-.material-icons{
-  color: var(--secondary-color);
-}
+
 
 .container{
   max-width: 1100px;
@@ -62,6 +60,7 @@ a {
   color: #f4f4f4;
 }
 
+
 .btn:hover{
   background: var(--secondary-color);
   color: #f4f4f4;
@@ -84,7 +83,7 @@ a {
 
 #navbar #logo {
   font-size: 2rem;
-  padding: px 0;
+  padding: 10px 0;
 }
 
 #navbar #logo a {
@@ -97,6 +96,16 @@ a {
   display: flex;
   align-items: center;
   /* letter-spacing: 1px; */
+}
+
+#navbar .nav-items a > i{
+  font-size: 2rem;
+  color: #b19c9c;
+  padding: 0px 10px;
+}
+
+#navbar .nav-items a > i:hover{
+  color: #f4f4f4;
 }
 
 #navbar ul li a {
@@ -408,17 +417,16 @@ a {
 }
 
 #login img{
-  position: relative;
-  left: 100px;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
+  padding: 0px 120px;
   animation: img-animate 2s 0s 1 alternate-reverse ease-in-out;
 }
 
 @keyframes img-animate{
   to{
-    width: 200px;
-    height: 200px
+    width: 300px;
+    height: 300px
   }
 }
 
